@@ -76,6 +76,8 @@ of a taxon, such as which authorities have viewed it as a synonym or valid since
 \item Notes - Character. Any notes related to the taxon or taxonomic history (e.g. treated as a subspecies, availability of name, authorship issues, etc.).
 \item AsSubgenus - Character. If the taxon was described as a subgenus of another genus, provides information on the genus.
 \item Infrasubspecific - Character. Infrasubspecific designation if it exists.
+\item Miscellaneous - Character. Additional information not captured in other columns.
+\item ResultCode - Character. A unique identifier for each nominal taxa, useful for linking table rows when homonyms are present.
 }
 }
 \description{
@@ -90,9 +92,9 @@ Note that the function will take longer to run, sometimes twice as long if taxon
 
 One problem a user may encounter using the Catalog of Fishes website is that the input taxon name must match directly to a term in the database
 or the database will not return any information. While this remains true using this package, users can attempt to resolve names by setting resolve = TRUE.
-When resolve = TRUE, rcatfish_search will use the Global Names Resolver (GNR) in an attempt to resolve the name, which will then be passed to downstream function calls.
-This is meant to be useful, but we recommend using this option be cautious about what the GNR returns. A message will print to the screen notifying you what
-name the GNR resolved to be the best match and will be used, though we strongly recommend users check the resolved name does not deviate from their expectations (i.e. a homonym or similar name for a different group is not returned).
+When resolve = TRUE, rcatfish_search will use the Global Names Verifier (GNverifier) in an attempt to resolve the name, which will then be passed to downstream function calls.
+This is meant to be useful, but we recommend using this option be cautious about what the GNverifier returns. A message will print to the screen notifying you what
+name the GNverifier resolved to be the best match and will be used, though we strongly recommend users check the resolved name does not deviate from their expectations (i.e. a homonym or similar name for a different group is not returned).
 }
 \examples{
 #Note that for Windows OS, OpenSSL must be used as a backend for curl. 
@@ -140,7 +142,7 @@ my.search<-rcatfish_search(type = "Species", query = c("Ctenopharynx",
 \references{
 Fricke, R., Eschmeyer, W.N. & van der Laan, R. (Year Accessed). Eschmeyer's Catalog of Fishes: Genera, Species, References. https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatmain.asp
 
-http://gnrd.globalnames.org/api http://gnrd.globalnames.org/
+Mozzherin, D. (2025). GNverifier -- a reconciler and resolver of scientific names against more than 100 data sources. (v1.3.0). Zenodo. https://doi.org/10.5281/zenodo.17245658
 }
 \author{
 Samuel R. Borstein, Brandon E. Dominy, Brian C. O'Meara

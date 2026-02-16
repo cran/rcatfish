@@ -1,6 +1,6 @@
 Package: rcatfish
-Version: 1.0.0
-Date: 2026-1-29
+Version: 1.0.1
+Date: 2026-2-10
 Title: An R Interface to the California Academy of Sciences Eschmeyer's
         Catalog of Fishes
 Authors@R: 
@@ -28,10 +28,10 @@ Suggests: knitr, rmarkdown, testthat
 VignetteBuilder: knitr
 Encoding: UTF-8
 NeedsCompilation: no
-Packaged: 2026-01-30 19:41:47 UTC; Sam
+Packaged: 2026-02-15 23:02:12 UTC; Sam
 Author: Samuel R. Borstein [aut, cre],
   Brandon Dominy [aut],
   Brian O'Meara [aut]
 Maintainer: Samuel R. Borstein <sam@borstein.com>
 Repository: CRAN
-Date/Publication: 2026-02-03 14:10:09 UTC
+Date/Publication: 2026-02-16 09:50:07 UTC

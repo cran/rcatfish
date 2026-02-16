@@ -267,7 +267,7 @@ The function returns a data frame that progresses from left to right from most t
 # See a Glossary of Terms Used in the Catalog
 glossary <- rcatfish_glossary()
 ```
-We can see that the `glossary` object made in the line of code above creates a data frame object containing a list of technical terms used in the catalog along with definitions and applicable sub-terms.
+We can see that the `glossary` object made in the line of code above creates a data frame containing technical terms used in the catalog along with their definitions and applicable sub-terms.
 
 ## 3.8: Using rcatfish to Obtain Information on the Journals Cited in the Catalog of Fishes
 
@@ -327,19 +327,19 @@ For any further issues and questions send an email with subject 'rcatfish suppor
 
 Eschmeyer WN (1998). Catalog of Fishes California Academy of Sciences, San Francisco, California, 2905 pp.
 
-Fricke R (2025). Eschmeyer's Catalog of Fishes: References. https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatmain.asp.
+Fricke R (2026). Eschmeyer's Catalog of Fishes: References. https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatmain.asp.
 
-Fricke R, Eschmeyer WN (2025). Eschmeyer's Catalog of Fishes: Guide to Fish Collections. https://researcharchive.calacademy.org/research/ichthyology/catalog/collections.asp.
+Fricke R, Eschmeyer WN (2026). Eschmeyer's Catalog of Fishes: Guide to Fish Collections. https://researcharchive.calacademy.org/research/ichthyology/catalog/collections.asp.
 
-Fricke R, Eschmeyer WN (2025). Eschmeyer’s Catalog of Fishes: Journals. https://researcharchive.calacademy.org/research/ichthyology/catalog/journals.asp.
+Fricke R, Eschmeyer WN (2026). Eschmeyer’s Catalog of Fishes: Journals. https://researcharchive.calacademy.org/research/ichthyology/catalog/journals.asp.
 
-Fricke R, Eschmeyer WN, Fong JD (2025). Eschmeyer’s Catalog of Fishes: Species by family/subfamily in the Catalog of Fishes. https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp.
+Fricke R, Eschmeyer WN, Fong JD (2026). Eschmeyer’s Catalog of Fishes: Species by family/subfamily in the Catalog of Fishes. https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp.
 
 
-Fricke R, Eschmeyer WN, van der Laan R (2025). Eschmeyer's Catalog of Fishes: Genera, Species, References. https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatmain.asp.
+Fricke R, Eschmeyer WN, van der Laan R (2026). Eschmeyer's Catalog of Fishes: Genera, Species, References. https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatmain.asp.
 
-Fricke R, van der Laan R, Fong JD (2025). Eschmeyer’s Catalog of Fishes: Changes and Additions. https://researcharchive.calacademy.org/research/ichthyology/catalog/ChangeSummary.asp.
+Fricke R, van der Laan R, Fong JD (2026). Eschmeyer’s Catalog of Fishes: Changes and Additions. https://researcharchive.calacademy.org/research/ichthyology/catalog/ChangeSummary.asp.
 
-van der Laan R, Fricke R, Eschmeyer WN (2025). Eschmeyer's Catalog of Fishes: Classification. https://www.calacademy.org/scientists/catalog-of-fishes-classification/.
+van der Laan R, Fricke R, Eschmeyer WN (2026). Eschmeyer's Catalog of Fishes: Classification. https://www.calacademy.org/scientists/catalog-of-fishes-classification/.
 
-van der Laan R, Fricke R, Fong J (2025). Eschmeyer's Catalog of Fishes: Glossary. https://www.calacademy.org/scientists/catalog-of-fishes-glossary/.
+van der Laan R, Fricke R, Fong J (2026). Eschmeyer's Catalog of Fishes: Glossary. https://www.calacademy.org/scientists/catalog-of-fishes-glossary/.

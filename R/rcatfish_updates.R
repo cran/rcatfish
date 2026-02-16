@@ -42,10 +42,14 @@
 rcatfish_updates <- function(changes = TRUE, author.changes = TRUE, spell.changes = TRUE, added.genera = TRUE, added.species = TRUE) {
   
   # returns an error if parameters are not type 'logical'
-  if (!is.logical(changes) || !is.logical(author.changes) || !is.logical(added.genera) || !is.logical(added.species)) {
+  # if(!is.logical(c(changes, author.changes, spell.changes, added.genera, added.species))){
+  #   stop("'changes', 'author.changes', 'added.genera', and 'added.species' must be provided as logical values")
+  #   
+  # }
+  if(any(c(is.logical(changes), is.logical(author.changes), is.logical(spell.changes),is.logical(added.genera),is.logical(added.species))==FALSE)){
     stop("'changes', 'author.changes', 'added.genera', and 'added.species' must be provided as logical values")
   }
-  
+
   ##############################################################################
   
   ########################### Accessing Catalog HTML ###########################
