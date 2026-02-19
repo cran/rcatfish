@@ -4,9 +4,11 @@
 #' 
 #' @details This function displays the Glossary tab of Eschmeyer's Catalog of Fishes. The glossary contains definitions for various terms that are important to the discussion of taxonomy and are mentioned throughout the database.
 #' @return A dataframe with three columns. Some terms have sub-terms (e.g. synonym will have definitions for junior, objective, and subjective in addition to defining synonym itself). The first column represents the name of the main term, the second column represents the name of sub-terms, and the final column provides the definition for these terms. 
-#' @examples
+#' @examplesIf interactive()
+#' \donttest{
 #' # Obtain the Eschmeyer's Catalog of Fishes Glossary
 #' myGlossary <- rcatfish_glossary()
+#' }
 #' @author Samuel R. Borstein
 #' @references 
 #' van der Laan, R., Fricke, R. & Fong, J. (Year Accessed). Eschmeyer's Catalog of Fishes: Glossary. https://www.calacademy.org/scientists/catalog-of-fishes-glossary/.

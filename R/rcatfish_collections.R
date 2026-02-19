@@ -29,7 +29,7 @@
 #' data will not be found (case must match, spelling, etc.). Users wishing to query more than one query
 #' mixed with either a country or abbreviation should note that all parameters must be of equal length, so if searching
 #' two queries both in U.S.A., the country should be supplied twice (see the final example in the examples below).
-#' @examples
+#' @examplesIf interactive()
 #' #Search Museum Code For UMMZ (University of Michigan Museum of Zoology)
 #' my.collections <- rcatfish_collections(abbreviation = "UMMZ", country = NULL, 
 #' query = NULL, verbose = TRUE)

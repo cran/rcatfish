@@ -13,7 +13,11 @@ Character Vector length of one with the Catalog of Fishes version
 Returns the current version of Catalog of Fishes being used in the R session
 }
 \examples{
-my.version <- rcatfish_version() 
+\dontshow{if (interactive()) withAutoprint(\{ # examplesIf}
+\donttest{
+#' my.version <- rcatfish_version()
+}
+\dontshow{\}) # examplesIf}
 }
 \references{
 Fricke, R., Eschmeyer, W.N. & van der Laan, R. (Year Accessed). Eschmeyer's Catalog of Fishes: Genera, Species, References. https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatmain.asp.

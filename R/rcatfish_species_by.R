@@ -26,13 +26,15 @@
 #' @author Samuel R. Borstein
 #' @references 
 #' Fricke, R., Eschmeyer, W.N. & Fong J.D. (Year Accessed). Eschmeyer’s Catalog of Fishes: Species by family/subfamily in the Catalog of Fishes. https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp.
-#' @examples
+#' @examplesIf interactive()
+#' \donttest{
 #' #Search for the number of described Cypriniformes
 #' MySearch <- rcatfish_species_by(query = "Cypriniformes") 
 #' #Obtain the total number of genera and species available, valid, and described in the last 10 years
 #' CofF_totals <- rcatfish_species_by(query = "Totals")
 #' #Search for more than one family
 #' MySearch <- rcatfish_species_by(query = c("Cichlidae","Embiotocidae"))
+#' }
 #' @export
 
 rcatfish_species_by <- function(query, verbose = TRUE) {

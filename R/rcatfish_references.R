@@ -9,11 +9,13 @@
 #' @details This function searches Catalog of Fishes references. Users can supply either a keyword 
 #' (i.e. cichlidae, revision, etc.) or a reference number to retrieve reference information.
 #' @return A data.frame containing columns for the query, reference number, and full citation.
-#' @examples 
+#' @examplesIf interactive()
+#' \donttest{
 #' #Perform a search of references that contain the keyword Amphilophus.
 #' my.refs<-rcatfish_references(query = "Amphilophus", type = "keyword")
 #' #Perform a search of references based on a Catalog of Fishes reference number
 #' my.refs<-rcatfish_references(query = 2787, type = "RefNo")
+#' }
 #' @author Samuel R. Borstein, Brian C. O'Meara
 #' @references 
 #' Fricke, R. (Year Accessed). Eschmeyer's Catalog of Fishes: References. https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatmain.asp

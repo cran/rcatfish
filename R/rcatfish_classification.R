@@ -4,7 +4,7 @@
 #' 
 #' @details This function displays the classification tab of Eschmeyer's Catalog of Fishes. The data are returned in a tabular framework that progresses from most to least inclusive from left to right. The function will return the class, order, suborder, family, subfamily, author, and common name of the family or subfamily.
 #' @return A dataframe with seven columns. From left to right (and most inclusive to least inclusive), the columns represent class, order, suborder, family, subfamily, author, and the common name of the family or subfamily.
-#' @examples
+#' @examplesIf interactive()
 #' #Obtain the Eschmeyer's Catalog of Fishes Classification
 #' \donttest{
 #' myClassification <- rcatfish_classification()

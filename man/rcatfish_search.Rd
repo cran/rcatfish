@@ -97,6 +97,7 @@ This is meant to be useful, but we recommend using this option be cautious about
 name the GNverifier resolved to be the best match and will be used, though we strongly recommend users check the resolved name does not deviate from their expectations (i.e. a homonym or similar name for a different group is not returned).
 }
 \examples{
+\dontshow{if (interactive()) withAutoprint(\{ # examplesIf}
 #Note that for Windows OS, OpenSSL must be used as a backend for curl. 
 #Please see vignette on how to do this with vignette('rcatfish').
 
@@ -137,7 +138,7 @@ my.search<-rcatfish_search(type = "Species", query = c("Ctenopharynx",
   sleep.time = 10)
   }
 }
-
+\dontshow{\}) # examplesIf}
 }
 \references{
 Fricke, R., Eschmeyer, W.N. & van der Laan, R. (Year Accessed). Eschmeyer's Catalog of Fishes: Genera, Species, References. https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatmain.asp

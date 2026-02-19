@@ -5,9 +5,11 @@
 #' @param verbose Logical. Should query progress be messaged to the screen? Default is TRUE.
 #' @return Two column data frame. The first column contains the name of the query and the second column contains information on the journal.
 #' @details This function returns information on the journals cited in the Eschmeyer's Catalog of Fishes.
-#' @examples
+#' @examplesIf interactive()
+#' \donttest{
 #' my.journals<-rcatfish_journals(query="Cichlid")
 #' my.journals<-rcatfish_journals(query="Evolution")
+#' }
 #' @author Samuel R. Borstein
 #' @references 
 #' Fricke, R. & Eschmeyer, W.N. (Year Accessed). Eschmeyer’s Catalog of Fishes: Journals. https://researcharchive.calacademy.org/research/ichthyology/catalog/journals.asp

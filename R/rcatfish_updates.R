@@ -27,9 +27,11 @@
 #'   \item Was.Spelled - Character. Previous spelling of the taxon in the database.
 #'   \item Now.Spelled - Character. Revised spelling of the taxon in the database.
 #'   }
-#' @examples
+#' @examplesIf interactive()
+#' \donttest{
 #' # return all available data
 #' myList <- rcatfish_updates(changes = TRUE, added.genera = TRUE, added.species = TRUE)
+#' }
 #' @author Brandon E. Dominy, Samuel R. Borstein
 #' @references 
 #' Fricke, R., van der Laan, R. & Fong, J.D. (Year Accessed). Eschmeyer’s Catalog of Fishes: Changes and Additions. https://researcharchive.calacademy.org/research/ichthyology/catalog/ChangeSummary.asp.

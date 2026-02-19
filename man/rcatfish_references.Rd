@@ -27,10 +27,14 @@ This function searches Catalog of Fishes references. Users can supply either a k
 (i.e. cichlidae, revision, etc.) or a reference number to retrieve reference information.
 }
 \examples{
+\dontshow{if (interactive()) withAutoprint(\{ # examplesIf}
+\donttest{
 #Perform a search of references that contain the keyword Amphilophus.
 my.refs<-rcatfish_references(query = "Amphilophus", type = "keyword")
 #Perform a search of references based on a Catalog of Fishes reference number
 my.refs<-rcatfish_references(query = 2787, type = "RefNo")
+}
+\dontshow{\}) # examplesIf}
 }
 \references{
 Fricke, R. (Year Accessed). Eschmeyer's Catalog of Fishes: References. https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatmain.asp

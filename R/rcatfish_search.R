@@ -61,7 +61,7 @@
 #'   \item Miscellaneous - Character. Additional information not captured in other columns.
 #'   \item ResultCode - Character. A unique identifier for each nominal taxa, useful for linking table rows when homonyms are present.
 #' }
-#' @examples
+#' @examplesIf interactive()
 #' #Note that for Windows OS, OpenSSL must be used as a backend for curl. 
 #' #Please see vignette on how to do this with vignette('rcatfish').
 #' 

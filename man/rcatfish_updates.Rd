@@ -50,8 +50,12 @@ This function is used to access the Eschmeyer's Catalog of Fishes Summary of Cha
 This function displays the information on the "Changes and Additions" tab of Eschmeyer's Catalog of Fishes. The catalog updates this information monthly with changes to the catalog, new genus information, and new species information. Each updates removes the last month's information, so data obtained through this function is only representative of the changes and additions made since the previous update.
 }
 \examples{
+\dontshow{if (interactive()) withAutoprint(\{ # examplesIf}
+\donttest{
 # return all available data
 myList <- rcatfish_updates(changes = TRUE, added.genera = TRUE, added.species = TRUE)
+}
+\dontshow{\}) # examplesIf}
 }
 \references{
 Fricke, R., van der Laan, R. & Fong, J.D. (Year Accessed). Eschmeyer’s Catalog of Fishes: Changes and Additions. https://researcharchive.calacademy.org/research/ichthyology/catalog/ChangeSummary.asp.

@@ -25,8 +25,12 @@ Search for journals in the Catalog of Fishes
 This function returns information on the journals cited in the Eschmeyer's Catalog of Fishes.
 }
 \examples{
+\dontshow{if (interactive()) withAutoprint(\{ # examplesIf}
+\donttest{
 my.journals<-rcatfish_journals(query="Cichlid")
 my.journals<-rcatfish_journals(query="Evolution")
+}
+\dontshow{\}) # examplesIf}
 }
 \references{
 Fricke, R. & Eschmeyer, W.N. (Year Accessed). Eschmeyer’s Catalog of Fishes: Journals. https://researcharchive.calacademy.org/research/ichthyology/catalog/journals.asp

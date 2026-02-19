@@ -2,8 +2,10 @@
 #' 
 #' @description Returns the current version of Catalog of Fishes being used in the R session
 #' @return Character Vector length of one with the Catalog of Fishes version
-#' @examples
-#' my.version <- rcatfish_version() 
+#' @examplesIf interactive()
+#' \donttest{
+#' #' my.version <- rcatfish_version()
+#' }
 #' @author Samuel R. Borstein
 #' @references 
 #' Fricke, R., Eschmeyer, W.N. & van der Laan, R. (Year Accessed). Eschmeyer's Catalog of Fishes: Genera, Species, References. https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatmain.asp.

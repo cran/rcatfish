@@ -16,8 +16,12 @@ This function is used to access the Eschmeyer's Catalog of Fishes Glossary.
 This function displays the Glossary tab of Eschmeyer's Catalog of Fishes. The glossary contains definitions for various terms that are important to the discussion of taxonomy and are mentioned throughout the database.
 }
 \examples{
+\dontshow{if (interactive()) withAutoprint(\{ # examplesIf}
+\donttest{
 # Obtain the Eschmeyer's Catalog of Fishes Glossary
 myGlossary <- rcatfish_glossary()
+}
+\dontshow{\}) # examplesIf}
 }
 \references{
 van der Laan, R., Fricke, R. & Fong, J. (Year Accessed). Eschmeyer's Catalog of Fishes: Glossary. https://www.calacademy.org/scientists/catalog-of-fishes-glossary/.

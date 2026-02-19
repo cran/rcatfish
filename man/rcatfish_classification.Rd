@@ -16,10 +16,12 @@ This function is used to access the Eschmeyer's Catalog of Fishes classification
 This function displays the classification tab of Eschmeyer's Catalog of Fishes. The data are returned in a tabular framework that progresses from most to least inclusive from left to right. The function will return the class, order, suborder, family, subfamily, author, and common name of the family or subfamily.
 }
 \examples{
+\dontshow{if (interactive()) withAutoprint(\{ # examplesIf}
 #Obtain the Eschmeyer's Catalog of Fishes Classification
 \donttest{
 myClassification <- rcatfish_classification()
 }
+\dontshow{\}) # examplesIf}
 }
 \references{
 van der Laan, R., Fricke, R. & Eschmeyer, W.N. (Year Accessed). Eschmeyer's Catalog of Fishes: Classification. https://www.calacademy.org/scientists/catalog-of-fishes-classification/.

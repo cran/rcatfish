@@ -57,6 +57,7 @@ mixed with either a country or abbreviation should note that all parameters must
 two queries both in U.S.A., the country should be supplied twice (see the final example in the examples below).
 }
 \examples{
+\dontshow{if (interactive()) withAutoprint(\{ # examplesIf}
 #Search Museum Code For UMMZ (University of Michigan Museum of Zoology)
 my.collections <- rcatfish_collections(abbreviation = "UMMZ", country = NULL, 
 query = NULL, verbose = TRUE)
@@ -71,6 +72,7 @@ query = c("California","Alaska"), sleep.time = 10)
 #Search for Collections with Museum of Zoology in the name
 my.collections <- rcatfish_collections(query = "Museum of Zoology", phrase = TRUE)
 }
+\dontshow{\}) # examplesIf}
 }
 \references{
 Fricke, R. & Eschmeyer, W.N. (Year Accessed). Eschmeyer's Catalog of Fishes: Guide to Fish Collections. https://researcharchive.calacademy.org/research/ichthyology/catalog/collections.asp.

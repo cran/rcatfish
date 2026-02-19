@@ -38,12 +38,16 @@ Given the function reads in the page containing the table, for speed, it is high
 information on numerous orders, families, or subfamilies that they pass them in as a single query. To do this, see the last example.
 }
 \examples{
+\dontshow{if (interactive()) withAutoprint(\{ # examplesIf}
+\donttest{
 #Search for the number of described Cypriniformes
 MySearch <- rcatfish_species_by(query = "Cypriniformes") 
 #Obtain the total number of genera and species available, valid, and described in the last 10 years
 CofF_totals <- rcatfish_species_by(query = "Totals")
 #Search for more than one family
 MySearch <- rcatfish_species_by(query = c("Cichlidae","Embiotocidae"))
+}
+\dontshow{\}) # examplesIf}
 }
 \references{
 Fricke, R., Eschmeyer, W.N. & Fong J.D. (Year Accessed). Eschmeyer’s Catalog of Fishes: Species by family/subfamily in the Catalog of Fishes. https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp.
